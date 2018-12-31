@@ -20,7 +20,7 @@ let c = Math.abs(a-b)
       else {return `within range by ${c}`}
 
       }
-      
+
   return z
 }
 */
@@ -28,16 +28,14 @@ let c = Math.abs(a-b)
 
 function produceDrivingRange(blocks){
   function z(a,b){
-    let c = parseInt(a.replace("th", "")) + parseInt(b.replace("th", ""));
-      
+    let c = parseInt(a.replace("th", "")) - parseInt(b.replace("th", ""));
+
       if (Math.abs(c)>blocks){
         return `${c} blocks out of range`
       }
       else {return `within range by ${c}`}
 
       }
-      
+
   return z
 }
-
-
