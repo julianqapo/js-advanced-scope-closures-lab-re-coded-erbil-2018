@@ -34,8 +34,6 @@ function produceDrivingRange(blocks){
         return `${c} blocks out of range`
       }
       else {return `within range by ${c}`}
-
       }
-
   return z
 }
