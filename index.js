@@ -30,10 +30,11 @@ function produceDrivingRange(blocks){
   function z(a,b){
     let c = parseInt(a.replace("th", "")) - parseInt(b.replace("th", ""));
      c = Math.abs(c)
+     let t = Math.abs(c-blocks)
       if (c>blocks){
-        return `${c} blocks out of range`
+        return `${t} blocks out of range`
       }
-      else {return `within range by ${c}`}
+      else {return `within range by ${t}`}
       }
   return z
 }
