@@ -16,4 +16,5 @@ function produceTipCalculator(x){
   function y(a){
     return a*x
   }
+  return y
 }
