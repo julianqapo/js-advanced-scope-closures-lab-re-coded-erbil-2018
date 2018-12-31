@@ -13,7 +13,7 @@ function produceDrivingRange(block){
 
 function x(){
   function y(i){
-    if (i>10){
+    if (i>=10){
       return false;
     }else {
       return true;
